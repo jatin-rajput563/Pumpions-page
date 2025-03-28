@@ -17,22 +17,34 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="press-start ">
 
     <!----header---->
-    <section>
-        <nav class="">
+    <section class="header-bg min-vh-100">
+        <nav class="pt-30">
             <div class="d-flex justify-content-between align-items-center py-14 container mx-w-1140 w-100 nav-bg px-5">
                 <div class="d-flex justify-content-center align-items-center">
                     <a href="#" class="mr-18 ml-16">
                         <img src="./assets/image/svg/nav-logo.svg" alt="nav-logo">
                     </a>
                     <ul id="nav-name" class="d-flex gap-32 list-unstyled nav-link pl-18 m-0">
-                        <li class="">HOME</li>
-                        <li class="">ABOUT</li>
-                        <li class="">ROADMAP</li>
-                        <li class="">TEAM</li>
-                        <li class="">FAQ</li>
+                        <li class="">
+                            <a class="text-decoration-none text-black fw-normal fs-xl lh-130 nav-tags" href="#">HOME</a>
+                        </li>
+                        <li class="">
+                            <a class="text-decoration-none text-black fw-normal fs-xl lh-130 nav-tags"
+                                href="#">ABOUT</a>
+                        </li>
+                        <li class="">
+                            <a class="text-decoration-none text-black fw-normal fs-xl lh-130 nav-tags"
+                                href="#">ROADMAP</a>
+                        </li>
+                        <li class="">
+                            <a class="text-decoration-none text-black fw-normal fs-xl lh-130 nav-tags" href="#">TEAM</a>
+                        </li>
+                        <li class="">
+                            <a class="text-decoration-none text-black fw-normal fs-xl lh-130 nav-tags" href="#">FAQ</a>
+                        </li>
                         <li class="d-block d-sm-none">
                             <ul
                                 class="d-flex gap-11 list-unstyled align-items-center justify-content-center m-0 d-block d-lg-none">
@@ -46,22 +58,42 @@
                 <div class="d-flex align-items-center ">
                     <ul
                         class="d-flex gap-11 list-unstyled align-items-center justify-content-center m-0 d-none d-sm-block d-lg-none">
-                        <img src="./assets/image/svg/nav-discord.svg" alt="nav-discord">
-                        <img src="./assets/image/svg/nav-twiter.svg" alt="nav-twiter">
-                        <img src="./assets/image/svg/nav-me.svg" alt="nac-me">
+                        <a class="text-decoration-none" href="https://discord.com/" target="_blank">
+                            <img src="./assets/image/svg/nav-discord.svg" alt="nav-discord">
+                        </a>
+                        <a class="text-decoration-none" href="https://x.com/?lang=en" target="_blank">
+                            <img src="./assets/image/svg/nav-twiter.svg" alt="nav-twiter">
+                        </a>
+                        <a class="text-decoration-none" href="https://magiceden.io/" target="_blank">
+                            <img src="./assets/image/svg/nav-me.svg" alt="nac-me">
+                        </a>
                     </ul>
                     <div onclick="navbarbtn()" class="z-5 d-lg-none ml-37">
                         <img src="./assets/image/svg/menu-lines.svg" alt="menu-lines">
                     </div>
                     <ul id="nav-name"
                         class="d-flex gap-11 list-unstyled nav-link align-items-center justify-content-center m-0">
-                        <img src="./assets/image/svg/nav-discord.svg" alt="nav-discord">
-                        <img src="./assets/image/svg/nav-twiter.svg" alt="nav-twiter">
-                        <img src="./assets/image/svg/nav-me.svg" alt="nac-me">
+                        <a class="text-decoration-none" href="https://discord.com/" target="_blank">
+                            <img src="./assets/image/svg/nav-discord.svg" alt="nav-discord">
+                        </a>
+                        <a class="text-decoration-none" href="https://x.com/?lang=en" target="_blank">
+                            <img src="./assets/image/svg/nav-twiter.svg" alt="nav-twiter">
+                        </a>
+                        <a class="text-decoration-none" href="https://magiceden.io/" target="_blank">
+                            <img src="./assets/image/svg/nav-me.svg" alt="nac-me">
+                        </a>
                     </ul>
                 </div>
             </div>
         </nav>
+        <div class="container">
+            <div>
+                <img class="mx-auto d-flex mt-71 pointer-event-none w-100 mx-w-899" src="./assets/image/svg/punpion-heading-svg.svg"
+                    alt="punpion-heading-svg">
+                <h2 class="fw-normal fs-2xl lh-229 text-uppercase text-black text-center m-0 pt-26">Own, support & celebrate art.</h2>
+                <button class="get-btn mx-auto d-flex mt-75 fs-xl fw-normal lh-229 text-uppercase">GET STARTED</button>
+            </div>
+        </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
