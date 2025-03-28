@@ -186,10 +186,25 @@
     margin-top: 100px;
 }
 
-.slider-box {
-    max-width: 1400px;
+.left-slider-box {
+    max-width: 1342px;
     position: absolute;
     left: -5%;
+}
+
+.right-slider-box {
+    max-width: 1342px;
+    position: absolute;
+    right: -5%;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.pb-90 {
+    padding-bottom: 90px;
+
 }
 
 /* line-height */
