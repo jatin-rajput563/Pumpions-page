@@ -159,6 +159,24 @@
     padding-top: 43px;
 }
 
+.familiar-bg {
+    background-image: url(../image/png/FAMILIAR.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.upper-layer {
+    top: -15%;
+}
+
+.top-3 {
+    top: -2px;
+}
+
+.h-44 {
+    height: 44%;
+}
+
 /* line-height */
 .lh-130 {
     line-height: 130%;
