@@ -9,6 +9,7 @@
     --fs-5xl: 36px;
     /*----color----*/
     --blue-grey: #203948;
+    --light-blue-grey: #28424F;
 }
 
 .fs-sm {
@@ -46,4 +47,8 @@
 /* ------------------------------------------- */
 .bg-blue-grey {
     background-color: var(--blue-grey) !important;
+}
+
+.bg-light-blue-grey {
+    background-color: var(--light-blue-grey) !important;
 }
