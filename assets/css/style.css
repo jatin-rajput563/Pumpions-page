@@ -8,6 +8,10 @@
     max-width: 1140px !important;
 }
 
+.mx-w-1440 {
+    max-width: 1440px !important;
+}
+
 .menu-lines {
     width: 30px;
     height: 5px;
@@ -130,6 +134,29 @@
 
 .mx-w-899 {
     max-width: 899px;
+}
+
+/*--------------Meet-section--------------*/
+.mx-w-1056 {
+    max-width: 1056px;
+}
+
+.py-56 {
+    padding: 56px 42px 56px 42px;
+}
+
+.meet-bg {
+    background-image: url(../image/png/meet-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.pt-43 {
+    padding-top: 43px;
 }
 
 /* line-height */
