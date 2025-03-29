@@ -185,6 +185,7 @@
 .mt-100 {
     margin-top: 100px;
 }
+
 .slider-track {
     display: flex;
 }
@@ -224,6 +225,7 @@
         transform: translateX(0);
     }
 }
+
 .left-slider-box {
     max-width: 1342px;
     position: absolute;
@@ -287,6 +289,41 @@
 
 .mx-w-699 {
     max-width: 699px;
+}
+
+/*--------------Pumpions-section--------------*/
+.mx-w-226 {
+    max-width: 226px;
+}
+
+.pt-31 {
+    padding-top: 31px;
+}
+
+.pumpions-discord {
+    transition: all 200ms linear;
+}
+
+.pumpions-discord:hover {
+    transform: scale(1.1);
+}
+
+.gap-89 {
+    gap: 89px;
+}
+
+.hiring-btn-bg {
+    background-image: url(../image/png/hiring-btn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 16.5px 23px;
+    border: none;
+    background-color: transparent;
+    transition: all 200ms linear;
+}
+
+.hiring-btn-bg:hover {
+    transform: scale(1.1);
 }
 
 /* line-height */
