@@ -357,30 +357,41 @@
     transform: scale(1.1);
 }
 
-
 .accordion {
-    background-image: url(../image/png/accodion-bg.png) !important;
-    background-repeat: no-repeat !important;
-    background-size: 100% 100% !important;
-    width: 100% !important;
-
+    --bs-accordion-bg: transparent !important;
+    --bs-accordion-border-color: transparent !important;
+    max-width: 735px;
+    width: 100%;
 }
 
 .accordion-button:not(.collapsed) {
-    color: var(--bs-accordion-active-color);
+    color: unset !important;
     background-color: transparent !important;
     box-shadow: unset !important;
+
 }
 
 .accordion-button:focus {
     z-index: 3;
     outline: 0;
-    box-shadow: unset;
+    box-shadow: unset !important;
+}
+
+.accordion-button::after {
+    background-image: url(../image/svg/accordion-icon-svg.svg) !important;
 }
 
 .px-48 {
     padding-left: 48px !important;
     padding-right: 48px !important;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-10 {
+    margin-top: 10px;
 }
 
 .ml-29 {
