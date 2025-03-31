@@ -256,15 +256,13 @@
 }
 
 .left-slider-box {
-    max-width: 1342px;
-    position: absolute;
-    left: -5%;
+    transform: translateX(-10%);
+    overflow: hidden;
 }
 
 .right-slider-box {
-    max-width: 1342px;
-    position: absolute;
-    right: -5%;
+    transform: translate(10%, 0);
+    overflow: hidden;
 }
 
 .mt-30 {
@@ -486,6 +484,10 @@
 
     .lh-136 {
         line-height: 136%;
+    }
+
+    .mx-w-375 {
+        max-width: 375px;
     }
 }
 
