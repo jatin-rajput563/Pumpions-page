@@ -29,9 +29,9 @@
 <body class="press-start bg-light-blue-grey">
 
     <!----header---->
-    <section class="header-bg min-vh-100">
-        <nav class="pt-30">
-            <div class="d-flex justify-content-between align-items-center py-14 container mx-w-1140 w-100 nav-bg px-5">
+    <section class="header-bg h-853 position-relative overflow-hidden">
+        <nav class="pt-30 px-32">
+            <div class="d-flex justify-content-between align-items-center py-14 container mx-w-1140 w-100 nav-bg px-48 ">
                 <div class="d-flex justify-content-center align-items-center">
                     <a href="#" class="mr-18 ml-16">
                         <img src="./assets/image/svg/nav-logo.svg" alt="nav-logo">
@@ -57,57 +57,67 @@
                         <li class="d-block d-sm-none">
                             <ul
                                 class="d-flex gap-11 list-unstyled align-items-center justify-content-center m-0 d-block d-lg-none">
-                                <img src="./assets/image/svg/nav-discord.svg" alt="nav-discord">
-                                <img src="./assets/image/svg/nav-twiter.svg" alt="nav-twiter">
-                                <img src="./assets/image/svg/nav-me.svg" alt="nac-me">
+                                <a class="text-decoration-none nav-icons" href="https://discord.com/" target="_blank">
+                                    <img src="./assets/image/svg/nav-discord.svg" alt="nav-discord">
+                                </a>
+                                <a class="text-decoration-none nav-icons" href="https://x.com/?lang=en" target="_blank">
+                                    <img src="./assets/image/svg/nav-twiter.svg" alt="nav-twiter">
+                                </a>
+                                <a class="text-decoration-none nav-icons" href="https://magiceden.io/" target="_blank">
+                                    <img src="./assets/image/svg/nav-me.svg" alt="nac-me">
+                                </a>
                             </ul>
                         </li>
                     </ul>
                 </div>
                 <div class="d-flex align-items-center ">
                     <ul
-                        class="d-flex gap-11 list-unstyled align-items-center justify-content-center m-0 d-none d-sm-block d-lg-none">
-                        <a class="text-decoration-none" href="https://discord.com/" target="_blank">
+                        class="d-flex gap-11 list-unstyled align-items-center justify-content-center m-0 d-none d-sm-block d-lg-none ">
+                        <a class="text-decoration-none nav-icons" href="https://discord.com/" target="_blank">
                             <img src="./assets/image/svg/nav-discord.svg" alt="nav-discord">
                         </a>
-                        <a class="text-decoration-none" href="https://x.com/?lang=en" target="_blank">
+                        <a class="text-decoration-none nav-icons" href="https://x.com/?lang=en" target="_blank">
                             <img src="./assets/image/svg/nav-twiter.svg" alt="nav-twiter">
                         </a>
-                        <a class="text-decoration-none" href="https://magiceden.io/" target="_blank">
+                        <a class="text-decoration-none nav-icons" href="https://magiceden.io/" target="_blank">
                             <img src="./assets/image/svg/nav-me.svg" alt="nac-me">
                         </a>
                     </ul>
-                    <div onclick="navbarbtn()" class="z-5 d-lg-none ml-37">
+                    <div onclick="navbarbtn()" class="z-5 d-lg-none ml-37 mr-24">
                         <img src="./assets/image/svg/menu-lines.svg" alt="menu-lines">
                     </div>
                     <ul id="nav-name"
                         class="d-flex gap-11 list-unstyled nav-link align-items-center justify-content-center m-0">
-                        <a class="text-decoration-none" href="https://discord.com/" target="_blank">
+                        <a class="text-decoration-none nav-icons" href="https://discord.com/" target="_blank">
                             <img src="./assets/image/svg/nav-discord.svg" alt="nav-discord">
                         </a>
-                        <a class="text-decoration-none" href="https://x.com/?lang=en" target="_blank">
+                        <a class="text-decoration-none nav-icons" href="https://x.com/?lang=en" target="_blank">
                             <img src="./assets/image/svg/nav-twiter.svg" alt="nav-twiter">
                         </a>
-                        <a class="text-decoration-none" href="https://magiceden.io/" target="_blank">
+                        <a class="text-decoration-none nav-icons mr-15" href="https://magiceden.io/" target="_blank">
                             <img src="./assets/image/svg/nav-me.svg" alt="nac-me">
                         </a>
                     </ul>
                 </div>
             </div>
         </nav>
+        <img src="./assets/image/png/header-left-clouds.png" alt="header-left-clouds"
+            class="position-absolute header-left-clouds">
+        <img class="position-absolute header-right-clouds" src="./assets/image/png/header-right-clouds.png"
+            alt="header-right-clouds">
         <div class="container">
             <div>
-                <img class="mx-auto d-flex mt-71 pointer-event-none w-100 mx-w-899"
+                <img class="mx-auto d-flex mt-71 pointer-event-none w-100 header-main-text"
                     src="./assets/image/svg/punpion-heading-svg.svg" alt="punpion-heading-svg">
-                <h2 class="fw-normal fs-2xl lh-229 text-uppercase text-black text-center m-0 pt-26">Own, support &
+                <h2 class="fw-normal fs-2xl lh-229 text-uppercase text-black text-center m-0 pt-26 mx-w-255 mx-auto">Own, support &
                     celebrate art.</h2>
-                <button class="get-btn mx-auto d-flex mt-75 fs-xl fw-normal lh-229 text-uppercase">GET STARTED</button>
+                <button class="get-btn mx-auto d-flex mt-40 fs-xl fw-normal lh-229 text-uppercase">GET STARTED</button>
             </div>
         </div>
     </section>
 
     <!----meet-section---->
-    <section class="bg-blue-grey pt-150">
+    <!-- <section class="bg-blue-grey pt-150">
         <div class="container mx-w-1140">
             <div class="py-56 meet-bg">
                 <h2 class="text-white fs-5xl lh-229 fw-normal text-center ">MEET THE PUMPIONS</h2>
@@ -118,10 +128,10 @@
             </div>
         </div>
         <img class="w-100 pt-43" src="./assets/image/png/meet-bottom-layer.png" alt="meet-bottom-layer">
-    </section>
+    </section> -->
 
     <!----FAMILIAR-section---->
-    <section class="familiar-bg position-relative overflow-hidden pb-100">
+    <!-- <section class="familiar-bg position-relative overflow-hidden pb-100">
         <img class="w-100 upper-layer position-absolute" src="./assets/image/png/FAMILIAR-upper-layer.png"
             alt="FAMILIAR-upper-layer">
         <img class="w-100 position-absolute top-3 h-44" src="./assets/image/png/FAMILIAR-top-layer.png"
@@ -133,7 +143,7 @@
             </div>
         </div>
         <div class="slider-container overflow-hidden position-relative d-flex flex-column w-100">
-            <!-- Track 1 (Left Direction) -->
+            
             <div class="slider-track slider-track-1 mt-100 ">
                 <img class="ml-26 mx-w-175 mx-h-193 w-100 h-100" src="./assets/image/png/left-slider-img-2.png"
                     alt="left-slider-img-2">
@@ -164,7 +174,7 @@
                 <img class="ml-26 mx-w-175 mx-h-193 w-100 h-100" src="./assets/image/png/left-slider-img-7.png"
                     alt="left-slider-img-7">
             </div>
-            <!-- Track 2 (Right Direction) -->
+           
             <div class="slider-track slider-track-2 mt-30 ">
                 <img class="ml-26 mx-w-175 mx-h-193 w-100 h-100" src="./assets/image/png/right-slider-img-1.png"
                     alt="right-slider-img-1">
@@ -196,10 +206,10 @@
                     alt="right-slider-img-4">
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!----Membership-section---->
-    <section class="position-relative">
+    <!-- <section class="position-relative">
         <img class="position-absolute w-100 fammiliar-bottom-layer" src="./assets/image/png/FAMILIAR-bottom-layer.png"
             alt="FAMILIAR-bottom-layer">
         <div class="container position-relative z-1 mx-w-1140">
@@ -239,10 +249,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!----Pumpmap-section---->
-    <section class="bg-light-blue-grey mt-100">
+    <!-- <section class="bg-light-blue-grey mt-100">
         <div class="container mx-w-1140">
             <div class="row">
                 <div class="col-5">
@@ -262,10 +272,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!----Pumpions-section---->
-    <section class="bg-light-blue-grey mt-100">
+    <!-- <section class="bg-light-blue-grey mt-100">
         <div class="container mx-w-1140">
             <p class="fw-normal fs-4xl lh-202 text-white text-center pb-5">OG PUMPIONS</p>
             <div class="d-flex gap-89">
@@ -444,18 +454,18 @@
             </div>
             <button class="fw-normal fs-xl lh-229 border-0 hiring-btn-bg mx-auto d-flex mt-5">WE ARE HIRING</button>
         </div>
-    </section>
+    </section> -->
 
     <!----Faq-section---->
-    <section class="mt-100 min-vh-100">
+    <!-- <section class="mt-100 min-vh-100 accordion-section">
         <div class="container">
             <h2 class="fw-normal fs-4xl lh-202 text-white text-center">Faq</h2>
             <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
+                <div class="accordion-item accordion-bg-img">
                     <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Accordion Item #1
+                            Aliquam eget libero vitae velit?
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
@@ -469,11 +479,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item accordion-bg-img">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Accordion Item #2
+                            Aliquam eget libero vitae velit?
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -487,11 +497,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item accordion-bg-img">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Accordion Item #3
+                            Aliquam eget libero vitae velit?
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -505,9 +515,45 @@
                         </div>
                     </div>
                 </div>
+                <div class="accordion-item accordion-bg-img">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFOur">
+                            Aliquam eget libero vitae velit?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item accordion-bg-img">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Aliquam eget libero vitae velit?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!---bootstrap-links--->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

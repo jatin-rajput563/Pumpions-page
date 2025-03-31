@@ -52,3 +52,11 @@
 .bg-light-blue-grey {
     background-color: var(--light-blue-grey) !important;
 }
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-xl:12px;
+        --fs-2xl: 14px;
+
+    }
+}
