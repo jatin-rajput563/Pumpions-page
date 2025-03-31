@@ -476,6 +476,17 @@
         padding-right: 20px !important;
     }
 
+    .py-56 {
+        padding: 36px 12px 28px 12px;
+    }
+
+    .mx-w-286 {
+        max-width: 286px;
+    }
+
+    .lh-136 {
+        line-height: 136%;
+    }
 }
 
 @media (max-width:575.98px) {

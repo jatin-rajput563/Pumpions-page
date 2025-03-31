@@ -53,10 +53,16 @@
     background-color: var(--light-blue-grey) !important;
 }
 
+@media (max-width:767.98px) {
+    :root {
+        --fs-5xl: 24px;
+    }
+}
+
 @media (max-width:575.98px) {
     :root {
-        --fs-xl:12px;
+        --fs-xl: 12px;
         --fs-2xl: 14px;
-
+        --fs-5xl: 20px;
     }
 }
